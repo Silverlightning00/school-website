@@ -1,0 +1,160 @@
+/*** sectioning elements ***/
+
+body {
+  margin-left: 2%;
+  margin-right: 2%;
+  background-color: #e83030;
+}
+
+header {
+background-color: #e83030;
+}
+
+main {
+background-color: #f8f8f8;
+}
+
+footer {
+background-color: #e83030;
+}
+
+nav {
+
+}
+
+section {
+
+}
+
+aside {
+
+}
+
+
+/**** content styles ***/
+h1,h2,h3,h4,h5,h6 {
+  color: #203098;
+}
+
+h1 {
+
+}
+
+h2 {
+
+}
+
+h3 {
+
+}
+
+h4 {
+
+}
+
+h5 {
+
+}
+
+h6 {
+
+}
+
+p {
+  color: #282828;
+}
+
+blockquote {
+
+}
+
+cite {
+    color: #5870f8;
+}
+
+ol {
+
+}
+
+ul {
+
+}
+
+li {
+
+}
+
+table {
+  width: 80%;
+  border: 2px solid #282828;
+  border-collapse: collapse;
+  font-size:12px;
+}
+
+tr {
+ background-color: #e83030;
+}
+
+th {
+  background-color: #5870f8;
+  border: 2px solid #282828;
+}
+
+td {
+  border: 2px solid #282828;
+}
+
+
+/*** image styles ***/
+
+img  {
+
+}
+
+
+/*** link styles ***/
+
+a:link {
+
+}
+
+a:visited {
+
+}
+
+a:hover {
+
+}
+
+a:active {
+
+}
+
+    /*===============================================
+      Odin Overrides
+    ===============================================/*
+
+/* navbar */
+
+.navbar {
+  background-color: #3850c8;
+}
+
+.navbar-brand {
+  color: white;
+}
+
+.navbar-menu a:link,
+.navbar-menu a:visited {
+  color: white;
+  font-weight: bold;
+}
+
+.navbar-menu a:hover {
+  text-decoration: none;
+  color: #5870f8;
+}
+
+.navbar a:active {
+  color: #3850c8;
+}
