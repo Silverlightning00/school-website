@@ -1,13 +1,15 @@
 <!DOCTYPE html>
-
 <html lang="en">
+
 <head>
   <!-- metadata -->
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
+  <link href="https://fonts.googleapis.com/css?family=Oswald|Roboto+Condensed" rel="stylesheet">
+
   <!-- page title -->
-  <title>Pokeschool</title>
+  <title>Pokéschool</title>
 
   <!-- styles -->
   <link rel="stylesheet" href="css/odin-0.9.5.css">
@@ -15,12 +17,15 @@
 </head>
 
 <body>
-
   <!-- start making your grid here -->
   <header>
     <div class="row">
-      <div class="col-xs-8">Pokeschool</div>
-      <div class="col-xs-4">2</div>
+      <div class="col-xs-8">
+		<img src="img/logo2.png" alt="Pokéschool">
+		</div>
+      <div class="col-xs-4">
+
+      </div>
     </div>
     <div style="background-color: #3850c8;
                 border: 2px solid #203098"
@@ -46,24 +51,40 @@
   </header>
 
   <main>
+
     <div class="row">
-      <div class="col-xs-12 col-sm-6">
-        <h3>News and upcoming events</h3>
-        <p>Curabitur luctus nulla quis massa suscipit maximus.
-          Maecenas eget diam convallis, lobortis eros sit amet,
-          convallis tortor. Interdum et malesuada fames ac ante
-          ipsum primis in faucibus. Donec eleifend sapien sed elit
-          posuere tincidunt. Donec eleifend ullamcorper augue at
-          tempus. Nulla euismod diam quis vehicula rutrum. Aenean
-          vestibulum consequat ex ut sollicitudin. Suspendisse id
-          eros lorem. Phasellus vehicula egestas nisi vel aliquet.
-          Phasellus auctor, erat non porttitor lacinia, mi leo
-          efficitur nisi, ac luctus nunc lorem vitae mauris.
-        </p>
+      <div style="border-left: 2px solid #203098" class="col-xs-12 col-sm-6">
+        <h2>News and Announcements</h2>
+          <h3>Spirit Week</h3>
+            <p>It’s spirit week! Spirit week lasts from the 13th to the 17th.
+              Dress as your favorite pokémon of all time and fill the school
+              with pokémon all week long. The days of the week and their
+              respective themes are listed below.</p>
+                <ul>
+                  <li>Monday: <b>Starters.</b> Dress as any of the starter
+                      pokémon from any region. </li>
+                  <li>Tuesday: <b>Pikachu.</B> Dress as our school mascot, Pikachu!</li>
+                  <li>Wednesday: <b>Old school.</b> Dress as one of the first 150
+                      pokémon discovered.</li>
+                  <li>Thursday: <b>Alola.</b> Dress as one of the pokémon from the
+                      Alola region.</li>
+                  <li>Friday: <b>Free Choice.</b> Pick any pokémon you like to
+                      dress as. Pick a pokémon you dressed as before or pick
+                      something totally new!</li>
+                </ul>
+          <h3>Pokémon Battles</h3>
+            <p>Check out last week's winner! Pokemon battles take place after
+              school every Friday at 2:30. The winners of this month so far are
+              listed bleow.</p>
       </div>
-      <div class="hide-xs-down col-sm-6">5</div>
-      <div class="col-xs-6 col-sm-4 col-md-3">
-        <h3>School Schedule</h3>
+
+      <div style="border-right: 2px solid #203098" class="hide-xs-down col-sm-6">
+		<h2>Welcome to Pokéschool!</h2>
+
+	  </div>
+
+      <div style="border-left: 2px solid #203098" class="col-xs-12 col-sm-6 col-md-6">
+        <h2>School Schedule</h2>
           <table>
             <tr>
               <th>Period</th>
@@ -107,32 +128,152 @@
             </tr>
           </table>
       </div>
-      <div class="col-xs-6 col-sm-4 col-md-3">
-        <h3>Buses</h3>
+
+      <div style="border-right: 2px solid #203098" class="col-xs-12 col-sm-6 col-md-6 buses">
+        <h2>Buses</h2>
         <p>
-          Buses will be able 
+          Buses will be able to pick up anyone in the following
+          cities and towns in the Kanto region:
+          <ul style="font-size:15px">
+            <li>Pallet Town</li>
+            <li>Viridian City</li>
+            <li>Pewter City</li>
+            <li>Cerulean City</li>
+            <li>Vermilion City</li>
+            <li>Lavender Town</li>
+            <li>Celadon City</li>
+            <li>Fuchsia City</li>
+            <li>Saffron City</li>
+          </ul>
+          <i style="font-size:12px">Please call (765-555-7913) for more information</i>
         </p>
       </div>
-      <div class="col-xs-12 col-sm-4 col-md-6">
-        <h3>Calendar</h3>
 
+      <div style="border-right: 2px solid #203098; border-left: 2px solid #203098" class="col-xs-12">
+        <h2>Calendar</h2>
+			<table class="hide-xs-down centert cal">
+			<tr>
+				<th colspan="7" style="padding-top: 2%; padding-bottom: 2%; text-align: center;"><b>February 2017</b></th>
+			</tr>
+				<tr>
+					<th>Sunday</th>
+					<th>Monday</th>
+					<th>Tuesday</th>
+					<th>Wednesdy</th>
+					<th>Thursday</th>
+					<th>Friday</th>
+					<th>Satutday</th>
+				</tr>
+				<tr>
+					<td class="dull">29</td>
+					<td class="dull">30</td>
+					<td class="dull">31</td>
+					<td>1) Pokemon fanclub meetup.</td>
+					<td>2) </td>
+					<td>3) Pokemon battle: Brock vs. Misty</td>
+					<td>4) </td>
+				</tr>
+				<tr>
+          <td>5)</td>
+					<td>6)  Spirit Week!</td>
+					<td>7)  Spirit Week!</td>
+					<td>8)  Spirit Week! Pokemon fanclub meetup.</td>
+					<td>9)  Spirit Week!</td>
+					<td>10) Spirit Week!</td>
+					<td>11) </td>
+				</tr>
+				<tr>
+          <td>12</td>
+					<td>13)</td>
+					<td>14) Valentine's Day</td>
+					<td>15) Pokemon fanclub meetup.</td>
+					<td>16)</td>
+					<td>17)</td>
+					<td>18)</td>
+				</tr>
+				<tr>
+          <td>19</td>
+					<td>20</td>
+					<td>21</td>
+					<td>22) Pokemon fanclub meetup.</td>
+					<td>23</td>
+					<td>24</td>
+					<td>25</td>
+				</tr>
+				<tr>
+          <td>26</td>
+					<td>27</td>
+					<td>28</td>
+					<td class="dull">1) Pokemon fanclub meetup.</td>
+					<td class="dull">2</td>
+					<td class="dull">3</td>
+					<td class="dull">4</td>
+				</tr>
+				<tr>
+          <td class="dull">5</td>
+					<td class="dull">6</td>
+					<td class="dull">7</td>
+					<td class="dull">8) Pokemon fanclub meetup.</td>
+					<td class="dull">9</td>
+					<td class="dull">10</td>
+					<td class="dull">11</td>
+				</tr>
+			</table>
+        <h3>Events</h3>
+          <p>
+            <b>Pokemon Battles: </b><br>
+              Pokemon Battles are held after school at the battle arena every
+              Friday night. This month's battles are listed below.
+                <ul>
+                  <li>Brock vs. Misty (Feb. 3rd)
+                  <li>
+                </ul>
+          </p>
+          <p>
+            <b>Pokemon fan club:</b><br>
+              The Pokemon fan club meets up every Wednesday after school in
+              the lunch room. The meet starts as 2:20 and lasts about an hour.
+          </p>
+          <p>
+            <b>Spirit Week:</b><br>
+              Spirit Week is a time where you get to dress as a pokemon all
+              week long from Feb. 6th-10th.
+
+          </p>
+          <hr>
       </div>
-      <div class="col-xs-12">
-        <blockquote><p>Donec enim velit, imperdiet sit amet malesuada at,
-          molestie ut libero. Nunc quis ex in elit egestas fermentum.
-          Nullam euismod mi a sem congue, ut faucibus ante pretium.
-          In placerat justo placerat dui pellentesque, eget cursus
-          neque vulputate.</p>
+
+      <div style="border-left: 2px solid #203098; border-right: 2px solid #203098; border-bottom: 2px solid #203098" class="col-xs-12">
+        <blockquote><p>
+		I'm Ash from the town of Pallet. I am destined to be the worlds number one Pokémon Master.</p>
             <cite>Ash Ketchum</cite>
         </blockquote>
       </div>
     </div>
+
   </main>
 
   <footer>
     <div class="row">
-      <div class="col-xs-12">10</div>
-      <div class="col-xs-12">11</div>
+      <div class="col-xs-12">
+        <p><b>Contact Us</b></p>
+          <p style="font-size: 12px">Pokéchool<br>
+             Viridian City, Kanto<br>
+             Phone: 000-000-0000<br>
+             Email: pokeschools@kanto.edu
+          </p>
+      </div>
+      <div class="col-xs-12">
+        <p style="font-size: 12px; text-align: center">
+          <a ref="#">Home</a> | <a ref="#">About</a> |
+          <a ref="#">Students</a> | <a ef="#">Parents</a> |
+          <a ref="#">Teachers & Staff</a> | <a ref="#">Contact Us</a> |
+          <a ref="#">Athletics</a><br>
+          Pokéschool <br>
+          Copyright © 2014 <br>
+          Copyright Policy | Privacy Policy | Acceptable Use <br>
+        </p>
+      </div>
     </div>
   </footer>
 

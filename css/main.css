@@ -1,4 +1,6 @@
 /*** sectioning elements ***/
+/*** font-family: 'Oswald', sans-serif;
+	 font-family: 'Roboto Condensed', sans-serif; ***/
 
 body {
   margin-left: 2%;
@@ -34,8 +36,31 @@ aside {
 /**** content styles ***/
 h1,h2,h3,h4,h5,h6 {
   color: #203098;
+  font-family: 'Oswald', sans-serif;
+}
+h2 {
+  color: #ffcb05;
+  text-shadow: -2px 0 #203098, 0 2px #203098, 2px 0 #203098, 0 -2px #203098
 }
 
+@media (max-width:719px) {
+  h2 {
+    font-size: 30px;
+  }
+  h3 {
+    font-size: 24px;
+  }
+  p {
+    font-size: 15px;
+  }
+
+@media (max-width:479px) {
+  div.buses {
+    border-left: 2px solid #203098;
+  }
+}
+
+}
 h1 {
 
 }
@@ -62,6 +87,7 @@ h6 {
 
 p {
   color: #282828;
+  font-family: verdana, sans-serif;
 }
 
 blockquote {
@@ -81,11 +107,18 @@ ul {
 }
 
 li {
+  font-size: 15px;
+}
 
+hr {
+  width: 95%;
+  height: 3px;
+  color:  #203098;
+  background-color:  #203098;
 }
 
 table {
-  width: 80%;
+  width: 90%;
   border: 2px solid #282828;
   border-collapse: collapse;
   font-size:12px;
@@ -95,16 +128,62 @@ tr {
  background-color: #e83030;
 }
 
+tr:hover {
+  background-color: #ffcb05
+}
+
 th {
   background-color: #5870f8;
   border: 2px solid #282828;
+  padding: 15px;
 }
 
 td {
   border: 2px solid #282828;
+  vertical-align: top;
+  text-align: left;
 }
 
 
+/**** calendar styles ***/
+table.cal {
+  width: 75%;
+  font-size: 12px;
+}
+
+table.centert {
+  margin-left:auto;
+  margin-right:auto;
+}
+
+tr {
+
+}
+
+tr:hover {
+  background-color: #ffcb05
+}
+
+th {
+  background-color: #5870f8;
+  border: 2px solid #282828;
+  padding: 15px;
+  text-align: left;
+  width: 14.285%;
+}
+
+td {
+  border: 2px solid #282828;
+  text-align: left;
+}
+
+td.dull {
+  background-color: #c02028;
+}
+
+td.dull tr:hover {
+  background-color: #c7a008;
+}
 /*** image styles ***/
 
 img  {
@@ -115,7 +194,8 @@ img  {
 /*** link styles ***/
 
 a:link {
-
+  text-decoration: none;
+  color: #282828;
 }
 
 a:visited {
@@ -148,6 +228,7 @@ a:active {
 .navbar-menu a:visited {
   color: white;
   font-weight: bold;
+  font-family: 'Oswald', sans-serif;
 }
 
 .navbar-menu a:hover {
@@ -156,5 +237,5 @@ a:active {
 }
 
 .navbar a:active {
-  color: #3850c8;
+  color: #203098;
 }
