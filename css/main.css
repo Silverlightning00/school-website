@@ -55,8 +55,8 @@ h2 {
   }
 
 @media (max-width:479px) {
-  div.buses {
-    border-left: 2px solid #203098;
+  div.rightborder {
+    border-right: 2px solid #203098;
   }
 }
 
@@ -190,6 +190,13 @@ img  {
 
 }
 
+img.socialmedia {
+  height: 48px;
+  width: 48px;
+  float: right;
+  padding: 2px;
+}
+
 
 /*** link styles ***/
 
@@ -199,15 +206,18 @@ a:link {
 }
 
 a:visited {
-
+  text-decoration: none;
+  color: #282828;
 }
 
 a:hover {
-
+  text-decoration: none;
+  color: #282828;
 }
 
 a:active {
-
+  text-decoration: none;
+  color: #282828;
 }
 
     /*===============================================
@@ -215,6 +225,9 @@ a:active {
     ===============================================/*
 
 /* navbar */
+.activepage {
+  color: #203098;
+}
 
 .navbar {
   background-color: #3850c8;
