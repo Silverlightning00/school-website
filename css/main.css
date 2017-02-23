@@ -58,6 +58,10 @@ h2 {
   div.rightborder {
     border-right: 2px solid #203098;
   }
+  div.leftborder {
+    border-left: 2px solid #203098;
+
+  }
 }
 
 }
@@ -103,11 +107,12 @@ ol {
 }
 
 ul {
-
+  
 }
 
 li {
   font-size: 15px;
+
 }
 
 hr {
@@ -129,7 +134,7 @@ tr {
 }
 
 tr:hover {
-  background-color: #ffcb05
+  background-color: #ffcb05;
 }
 
 th {
@@ -142,6 +147,22 @@ td {
   border: 2px solid #282828;
   vertical-align: top;
   text-align: left;
+}
+
+.button {
+  background-color: #ffcb05;
+  border: 2px solid #203098;
+  border-radius: 4px;
+  color: #282828;
+  text-align: center;
+  font-size: 16px;
+  font-family: verdana, sans-serif;
+  cursor: pointer;
+}
+
+.button:hover {
+    background-color: #c7a008;
+    color: white;
 }
 
 
@@ -161,7 +182,7 @@ tr {
 }
 
 tr:hover {
-  background-color: #ffcb05
+  background-color: #ffcb05;
 }
 
 th {
@@ -234,12 +255,12 @@ a:active {
 }
 
 .navbar-brand {
-  color: white;
+  color: #f8f8f8;
 }
 
 .navbar-menu a:link,
 .navbar-menu a:visited {
-  color: white;
+  color: #f8f8f8;
   font-weight: bold;
   font-family: 'Oswald', sans-serif;
 }
