@@ -20,6 +20,15 @@ footer {
 background-color: #e83030;
 }
 
+.footerlinks {
+  font-size: 12px;
+  text-align: center;
+}
+
+.contactfooter {
+  font-size: 12px;
+}
+
 nav {
 
 }
@@ -60,7 +69,6 @@ h2 {
   }
   div.leftborder {
     border-left: 2px solid #203098;
-
   }
 }
 
@@ -107,11 +115,11 @@ ol {
 }
 
 ul {
-  
+
 }
 
 li {
-  font-size: 15px;
+  font-size: 16px;
 
 }
 
@@ -162,7 +170,6 @@ td {
 
 .button:hover {
     background-color: #c7a008;
-    color: white;
 }
 
 
@@ -246,6 +253,10 @@ a:active {
     ===============================================/*
 
 /* navbar */
+.navcolor {
+  background-color: #3850c8;
+  border: 2px solid #203098;
+}
 .activepage {
   color: #203098;
 }
