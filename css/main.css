@@ -172,6 +172,13 @@ td {
     background-color: #c7a008;
 }
 
+/**** form styles ***/
+.formtext {
+  font-size: 16px;
+  color: #282828;
+  font-family: verdana, sans-serif;
+}
+
 
 /**** calendar styles ***/
 table.cal {

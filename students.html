@@ -60,20 +60,63 @@
     <div class="row">
 <!--About Pokeschool-->
       <div style="border-left: 2px solid #203098" class="col-xs-12 col-sm-6 rightborder">
-        <h2>About Pokéschool</h2>
-          <h3>General Information</h3>
-            <p>The school is an alternative option to Pokémon Trainers who don't want to go around to
-               collect Gym Badges. Once a student graduates from Pokéschool, they automatically qualify
-               for the Pokémon League.</p>
-            <p>Pokéschool is located in Saffron City in the Kanto region.</p>
-            <p>Our school colors are red, blue, yellow, and white.</p>
-            <p>Our school mascot is Pikachu.</p>
-            <p>School Hours are 7:20AM - 2:10PM with a seven period day.</p>
-        <h3>Our Mission</h3>
-            <p>The mission of Pokéschool is to provide each student with the opportunity
-               to become the best Pokémon trainer they can be by adapting to their battle
-               style, encouraging them to learn new things, and challenging students to
-               think critically to overcome any obstacle they may face.</p>
+        <h2>Student Login</h2>
+          <h3>Login</h3>
+            <p>
+              <form class="formtext" action="/action_page.php" method="post">
+                <b>Username:</b><br>
+                <input type="text" name="username" value="Ash">
+                <br>
+                <b>Password:</b><br>
+                <input type="text" name="password" value="Ketchum">
+                <br>
+                <input  class="login" type="submit" value="Login">
+              </form>
+            </p>
+
+        <h3>My Schedule</h3>
+              <table>
+                <tr>
+                  <th>Period</th>
+                  <th>Class</th>
+                  <th>Teacher</th>
+                </tr>
+                <tr>
+                  <td>1st</td>
+                  <td>Rock Pokemon Training</td>
+                  <td>8:15 AM</td>
+                </tr>
+                <tr>
+                  <td>2nd</td>
+                  <td>8:22 AM</td>
+                  <td>9:14 AM</td>
+                </tr>
+                <tr>
+                  <td>3rd</td>
+                  <td>9:21 AM</td>
+                  <td>10:13 AM</td>
+                </tr>
+                <tr>
+                  <td>4th</td>
+                  <td>10:20 AM</td>
+                  <td>11:12 AM</td>
+                </tr>
+                <tr>
+                  <td>5th</td>
+                  <td>Pokemon Tech</td>
+                  <td>12:11 PM</td>
+                </tr>
+                <tr>
+                  <td>6th</td>
+                  <td>Lunch</td>
+                  <td>N/A</td>
+                </tr>
+                <tr>
+                  <td>7th</td>
+                  <td>1:17 PM</td>
+                  <td>2:10 PM</td>
+                </tr>
+              </table></p>
       </div>
 
 <!--Map and Location-->
