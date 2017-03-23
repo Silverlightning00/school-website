@@ -257,7 +257,7 @@ a:active {
 
     /*===============================================
       Odin Overrides
-    ===============================================/*
+    ===============================================*/
 
 /* navbar */
 .navcolor {
@@ -290,4 +290,28 @@ a:active {
 
 .navbar a:active {
   color: #203098;
+}
+
+
+
+.navbar-menu {
+  background-color: #3850c8;
+}
+
+.navbar-toggle {
+  color: #e83030;
+}
+
+.menu-dismiss {
+  color: #282828;
+}
+
+.menu-shown a:link,
+.menu-shown a:visited {
+  color: #282828;
+}
+
+.menu-shown a:active,
+.menu-shown a:hover {
+
 }
